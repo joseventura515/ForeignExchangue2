@@ -4,6 +4,7 @@
              x:Class="ForeignExchangue2.Views.MainView"
              BackgroundColor="Yellow"
              BindingContext="{Binding Main, Source={StaticResource Locator}}">
+    
     <ContentPage.Content>
         <StackLayout>
             <Label  
