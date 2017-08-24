@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Xamarin.Forms;
-
 namespace ForeignExchangue2
 {
+    using Xamarin.Forms;
+    using ForeignExchangue2.Views;
     public partial class App : Application
     {
         public App()
         {
             InitializeComponent();
 
-            MainPage = new ForeignExchangue2.MainPage();
+            MainPage = new ForeignExchangue2.Views.MainView();
         }
 
         protected override void OnStart()
